@@ -2,7 +2,7 @@
 ## _Chat Bot-Like Design (Whatsapp-like interface)_
 
 
-- [Running Site](https://silverbanks.io/)
+- [Running Site](https://silverbanks.github.io/)
 
 [![N|Solid](images/demo.gif)](https://silverbanks.github.io/)
 
