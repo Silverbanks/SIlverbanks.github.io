@@ -38,7 +38,7 @@
 
 [![N|Solid](images/twitter.svg)](https://twitter.com/silver_banks)
 
-[![N|Solid](images/youtube.com)](https://youtube.com/silverbanks)
+[![N|Solid](images/youtube.com)](https://youtube.com/@silverbanks)
 
 <br>
 
