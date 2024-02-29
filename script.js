@@ -72,21 +72,21 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hey there👋🏻,<br><br>I am<span class='bold'><a class='alink'>Silver</a>.</span><br><br>I am a Software Engineering student at <span class='bold'>ALX-Hoberton School 👨🏻‍💻📚</span><br><br>I am also an undergrad student of the National Open University of Nigeria. I am eager to hear about potential career opportunities, so I would be happy to engage about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hey there👋🏻!<br><br>I'm<span class='bold'><a class='alink'>Silver</a>,</span><br><br>an aspiring Software Engineer<span class='bold'>attending ALX-Hoberton SWE program 👨🏻‍💻📚</span><br><br>I am also an undergrad student of the National Open University of Nigeria. I'm excited to share my journey and showcase my expertise through this portfolio.<br><br>Send <span class='bold'>help</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'comment'</span> - to leave comments<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'comment'</span> - to leave comments<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>projects</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
         case "resume":
             sendTextMessage(resumeString);
             break;
-        case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing a B.Sc in Information Technology.<br><br>I can develop software with the following languages :<br><span class='bold'><br>C<br>PHP<br>Python<br>CSS<br>HTML<br>JavaScript</span><br><br>I have experience with following frameworks :<span class='bold'>Bootstrap<br>Flask<br>NumPy<br>jQuery<br></span><br>My skills include:<span class='bold'>programming and coding<br>Debugging<br>Database Administration<br>Software Development<br>APIs<br></span><br>Favorite IDE:VSCode</span>");
+        case "expertise":
+            sendTextMessage("<span class='sk'>I'm passionate about coding and creating innovative solutions.<br><br>I've gained a solid foundation in various programming languages and technologies and can develop software with the following languages :<br><span class='bold'><br>C<br>Python<br>CSS<br>HTML<br>JavaScript</span><br><br>I have experience with following frameworks :<span class='bold'>Bootstrap<br>Flask<br>NumPy<br>jQuery<br>Node.js</span><br>My expertise include:<span class='bold'>Coding<br>Debugging<br>Problem Solving<br></span><br>Favorite IDE:VSCode</span>");
             break;
 
         case "education":
-            sendTextMessage("I am currently pursuing a B.Sc in Information Technology from National Open University of Nigeria<br>Graduating Year : July 2024<br><br>I am about to go into specialization at ALX Hoberton School, where I'm studying Software Engineering<br>Graduation will be June 2024<br><br>I studied CCNA Routing and Switching in 2015");
+            sendTextMessage("I am final year undergrad student of National Open University of Nigeria majoring in Information Technology<br>Graduating Year : July 2024<br><br>I am also attending the ALX-Hoberton Software Engineering Program, and will be going into Specialization at the beginning of the new month.<br>Graduation will be June 2024<br><br>I have learnt soft skills like; Emotional Intelligence, Leadership and Problem Solving");
             break;
 
         case "address":
@@ -96,7 +96,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/silverbankz/'><span class='bold'>Silver Chiahemba</a> with ❤️</span>");
+            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript!<br><br>👨🏻‍💻 Designed and Developed by Me with lots of coffee☕<a class='alink' target='_blank' href='https:\/\/instagram.com/silverbankz/'><span class='bold'>Silver Chiahemba</a> with ❤️</span>");
             break;
         case "contact":
             sendTextMessage(contactString);
