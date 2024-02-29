@@ -72,7 +72,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hey there👋🏻!<br><br>I am <span class='bold'><a class='alink'>Silver</a>,</span><br><br>an aspiring Software Engineer<span class='bold'>and an IT Professional.</span><br><br>I'm super passionate about coding and creating innovative solutions. I'm excited to share my journey and showcase my expertise through this portfolio!<br><br>Send <span class='bold'>help</span> to know more about me.<br>");
+                sendTextMessage("Hey there👋🏻!<br><br>I am <span class='bold'><a class='alink'>Silver</a>,</span><br><br>an aspiring Software Engineer and an IT Professional.<br><br>I'm super passionate about coding and creating innovative solutions. I'm excited to share my journey and showcase my expertise through this portfolio!<br><br>Send <span class='bold'>help</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
